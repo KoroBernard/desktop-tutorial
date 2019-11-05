@@ -1,0 +1,263 @@
+
+@font-face{
+    font-family:'wild river';
+    src: url('font(s)/wild river.ttf');
+  }
+
+  @font-face{
+    font-family:'Lumberjack';
+    src: url('font(s)/Lumberjack.otf');
+  }
+
+  @font-face{
+    font-family:'Pine';
+    src: url('font(s)/Pine.otf');
+  }
+
+  .grid-container {
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 0fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    display: grid;
+    overflow-wrap: break-word;
+    height: 1500px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    z-index:6;
+    color:rgba(255, 255, 255, 0.904);
+    font-size:200px;
+}
+.box
+{
+    display: grid;
+    text-decoration:none;
+    
+}
+
+.header
+{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align:center;
+    font-size:50px;
+    color:#f1f0ff;
+    letter-spacing:17px;
+}
+
+p {
+    text-align:center;
+    z-index:7;
+    /*<p>Flagstaff is a city in the U.S. state of Arizona, surrounded by mountains, desert and ponderosa pine forests. It’s a gateway to the San Francisco Peaks, home to Arizona’s tallest mountain (Humphreys Peak) and the Arizona Snowbowl ski resort. Nearby, Wupatki National Monument has Native American pueblo sites, and Walnut Canyon National Monument is dotted with their cliff dwellings.</p>?8*/
+}
+
+
+  a img {
+      border-radius:50px;
+  }
+
+
+.h1-2 {
+    text-align:center;
+    font-size:115px;
+    color:rgb(85, 98, 114);
+    letter-spacing:15px;
+}
+
+.article1
+{
+    grid-column-start: 3;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    border-bottom: none;
+    background-color:#61748d;
+}
+
+.section1
+{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    background-color:#4a5a6d;
+}
+
+.img1 {
+    padding:50px 10px 0px 10px;
+    
+}
+
+.imgtxt {
+    padding:10px 10px 0px 10px;
+    font-family:'Lumberjack';
+    font-size:30px;
+    letter-spacing:3px;
+    color:rgba(255, 255, 255, 0.911);
+}
+
+.imgtxt1 {
+    padding:10px 10px 0px 200px;
+    font-family:'Lumberjack';
+    font-size:30px;
+    letter-spacing:3px;
+    color:rgba(255, 255, 255, 0.911);
+    text-align:center;
+    font-style:bold;
+}
+
+
+.section2
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    background-color:#4a5a6d;
+}
+footer
+{
+    position:relative;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: #3a4654;
+}
+
+body
+{
+    height: 100vh;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+body::after
+{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width:517.10px;
+    heigh1:100px;
+    display:block;
+    padding:0px 0px 0px 10px6}
+
+
+
+.con1ainer:hover .overlay {
+    opacity:1
+
+}
+
+6ontainer:hover .overlay2 {
+    opacity:1
+
+}
+/* Header Styles */
+
+h1 {
+    font-family:'Sun';
+    display:inline-block;
+}
+
+
+.img3 {
+    z-index:10;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img3:hover {
+    background-color:rgba(0,0,0,15%);
+
+}
+
+.bnt > a {
+    font-size:20px;
+    top:30px;
+}
+
+.ah {
+    transition: 0.3s;
+    left: -80px;
+}
+
+.a6 {
+    padding:10px 30px 20px 10px;
+    z-index:5;
+    text-decoration:none;
+    color:white;
+    position:fixed;
+    left:-6px;
+    font-size:20px;
+    top:190px;
+    background-color:rgba(14, 14, 83, 0.829);
+    border-radius:0px 25px 100px 0px;
+    font-family:'Lumberjack';
+    letter-spacing:5px;
+}
+
+.a7 {
+    padding:10px 30px 20px 10px;
+    z-index:5;
+    text-decoration:none;
+    color:white;
+    position:fixed;
+    left:-6px;
+    font-size:20px;
+    top:130px;
+    background-color:rgba(14, 14, 83, 0.829);
+    border-radius:0px 25px 100px 0px;
+    font-family:'Lumberjack';
+    letter-spacing:5px;
+}
+
+.a8 {
+    padding:10px 30px 20px 10px;
+    z-index:5;
+    text-decoration:none;
+    color:white;
+    position:fixed;
+    left:-6px;
+    font-size:20px;
+    top:70px;
+    background-color:rgba(14, 14, 83, 0.829);
+    border-radius:0px 25px 100px 0px;
+    font-family:'Lumberjack';
+    letter-spacing:5px;
+}
+
+.a9 {
+    padding:10px 30px 20px 10px;
+    z-index:5;
+    text-decoration:none;
+    color:white;
+    position:fixed;
+    left:-6px;
+    font-size:20px;
+    top:10px;
+    background-color:rgba(14, 14, 83, 0.829);
+    border-radius:0px 25px 100px 0px;
+    font-family:'Lumberjack';
+    letter-spacing:5px;
+}
+
+.a6:hover,.a7:hover,.a8:hover,.a9:hover {
+    background-color:rgba(255, 217, 0, 0.89);
+    left:0px;
+    
+}
+
+.a10:hover {
+    background-color:rgba(0,0,0,15%);
+    border-radius:50% 50% 50% 50%;
+}
